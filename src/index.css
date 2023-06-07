@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('path/to/nunito-sans-regular.woff2') format('woff2'),
+       url('path/to/nunito-sans-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('path/to/nunito-sans-bold.woff2') format('woff2'),
+       url('path/to/nunito-sans-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+.specifiqbuton{
+  background-color: #556ff8;
+}
+.arrow{
+  color: #556ff8;
+}
+.bgSmall{
+  background-color: #f5f5e3;
+}
+.textColor{
+  color: #ff4f5a;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #ffffff;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
